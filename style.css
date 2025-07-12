@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 0px 20px;
+}
+
+li{
+    list-style: none;
+}
+
+#menu-button, #camera-icon, #sign-icon, #perfil-icon, #like-button, #deslike-button, #share-button, #download-button {
+    width: 24px;
+    height: 24px;
+    background-color: cyan;
+}
+
+#channel-perfil{
+    width: 160px;
+    height: 40px;
+    background-color: cyan;
+}
+
+#perfil-icon{
+    border-radius: 50%;
+}
+
+#youtube-icon {
+    width: 90px;
+    height: 20px;
+    background-color: red;
+}
+
+#search-bar {
+    width: 405px;
+    height: 40px;
+    background-color: lightgray;
+}
+
+#subscribe-button{
+    width: 160px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+nav, nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    gap: 24px;
+}
+
+header{
+    background-color: #f7f7f7;
+}
+
+main{
+    display: flex;
+}
+
+.video-section{
+    width: 75%;
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-container{
+    width: 925px;
+}
+
+.video-container p{
+    width: 510px;
+    font: 14px;
+}
+
+#video{
+    width: 925px;
+    height: 537px;
+    background-color: black;
+}
+
+.list-items{
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: #e4e4e4;
+    height: 100vh;
+}
+
+.side-bar li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+li .video-thumbnail{
+    background-color: orange;
+    width: 190px;
+    height: 90px;
+    margin-bottom: 16px;
+}
+
+.video-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.video-info p{
+    margin: 0;
+    padding: 0;
+}
